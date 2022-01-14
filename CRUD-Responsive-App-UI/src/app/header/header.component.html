@@ -1,0 +1,42 @@
+<!-- The navigation menu -->
+
+<div class="topnav" id="myTopnav">
+  <div class="navbar">
+    <div class="subnav">
+      <button class="subnavbtn">Menu1 <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a routerLink="/user-listing">Demo of Menu</a>
+        <a href="#">Sub-Menu2</a>
+        <a href="#">Sub-Menu3</a>
+        <a href="#">Sub-Menu4</a>
+        <a href="#">Sub-Menu5</a>
+      </div>
+    </div>
+    <a routerLink="/user-listing">User List</a>
+    <a href="#">Menu3</a>
+    <a routerLink="/user-detail">Add/Edit User</a>
+    <div class="subnav">
+      <button class="subnavbtn">Menu5 <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="#">Demo of Menu</a>
+        <a href="#">Sub-Menu2</a>
+        <a href="#">Sub-Menu3</a>
+        <a href="#">Sub-Menu4</a>
+        <a routerLink="/user-detail">Add/Edit User</a>
+      </div>
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+
+    <button
+      style="float: right; background-color: aliceblue"
+      mat-menu-item
+      (click)="logOut()"
+    >
+      <mat-icon>power_settings_new</mat-icon>
+      Logout
+    </button>
+  </div>
+</div>
