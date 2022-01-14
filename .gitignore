@@ -3,3 +3,5 @@
 ################################################################################
 
 /.vs
+/CRUD-Responsive-App-API/WebApplication1/bin/Debug/netcoreapp3.1/runtimes
+/CRUD-Responsive-App-API/WebApplication1/bin/Debug/netcoreapp3.1
